@@ -1,2 +1,0 @@
-# WAMIKA Developer
-## Assalamualaikum

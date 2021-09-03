@@ -14,6 +14,5 @@ function bgAnimation(object) {
 }
 
 bgAnimation('#background');
-bgAnimation('#bg-isi');
 
 //58E605

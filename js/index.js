@@ -8,6 +8,6 @@ let gradientify = new Gradientify(
       "radial-gradient(7deg, #FEEC00, #58E605)"
     ],
     3500 // Fading interval in miliseconds
-)
+);
 
 //58E605

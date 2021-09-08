@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  text-align-last: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align: center;">List Anggota UKM WAMIKA</h1>
+<br>
+
+
+<div class="container">
+  <img src="https://lh3.googleusercontent.com/pw/AM-JKLV6_yDC-H1139tt1b9eE_Bn_TfFiZpB_6X5Q-fbsFYKStDc6s8tDnlBR_WxiGjF0UyXk6GxrUqgAJGVe21jqTlaSNuwbu2Il9QTfPRqwX1v8pnDipqKrpN0y7HkqBLqOcN2j48LQ7FfvUnMYPUd3D6J=w1334-h889-no?authuser=0" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+  <a href="https://www.instagram.com/isrzl_/"> <div class="text">Ikhsan Syahrizal</div> </a>
+  </div>
+</div>
+  
+
+<div class="container">
+    <img src="Link foto kalian" alt="Avatar" class="image" style="width:100%">
+    <div class="middle">
+    <a href="Link Sosmed Kalian"> <div class="text">Nama Kalian</div> </a> 
+    </div>
+  </div>
+
+
+
+</body>
+</html>

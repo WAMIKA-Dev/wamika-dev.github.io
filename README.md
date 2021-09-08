@@ -1,2 +1,2 @@
 # WAMIKA Developer
-Bootstrap v5.1.0
+Syarat dan Ketentuan di Organisasi

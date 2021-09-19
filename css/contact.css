@@ -1,0 +1,37 @@
+.contact{
+    width: 100%;
+    height: calc(100vh - 70px);
+padding: 10px;
+    display: flex;
+    background-color: lightgreen;
+    
+}
+
+.contactKiri{
+    flex: 0.5;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactKiri > p {
+    margin-top: 20px;
+}
+
+.contactKanan{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactKanan > *{
+    margin: 10px 0;
+}
+
+.contactKanan input[type=text], textarea, button{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}

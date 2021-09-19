@@ -35,3 +35,15 @@ padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
 }
+
+.contactlogo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.contactlogo img{ 
+    width: 50px;
+    hight: 30px;
+    margin: 0 10px ;
+}
